@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Prasad Birajdar </span>
             from <span className="purple"> Solapur, India.</span>
-            <br /> Hey. I'am Tejas. 24 years young self-taught frontend developer
+            <br /> Hey. I'am Prasad. 24 years young self-taught frontend developer
             UI/UX Designer, From Solapur,Maharashtra.
             <br />
             I enjoy creating & building clean Modern & user-friendly Website
