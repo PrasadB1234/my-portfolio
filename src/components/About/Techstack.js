@@ -11,6 +11,7 @@ import {
 import {
 
   SiPostgresql,
+  SiVuedotjs
 } from "react-icons/si";
 
 function Techstack() {
@@ -31,9 +32,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVuedotjs />
+      </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col> */}
