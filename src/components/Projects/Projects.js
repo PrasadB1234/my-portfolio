@@ -34,7 +34,7 @@ function Projects() {
             <ProjectCard
               imgPath={ortholiveImg}
               isBlog={true}
-              title="Bits-0f-C0de"
+              title="OrthoLive"
               description="OrthoLive is a comprehensive musculoskeletal care platform that offers both virtual and in-person treatments, providing 24/7 access to orthopedic specialists. Designed to enhance patient care and streamline healthcare delivery, OrthoLive delivers personalized, scalable solutions for musculoskeletal injury management."
               ghLink="https://www.ortholive.com/remote-injury-care/"
               // demoLink="https://blogs.soumya-jit.tech/"
