@@ -22,7 +22,7 @@ function ProjectCards(props) {
           </Button>
           </div>
 
-        </div>
+        
 
 
         {"\n"}
@@ -41,6 +41,7 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+        </div>
       </Card.Body>
     </Card>
   );

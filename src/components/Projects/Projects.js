@@ -6,6 +6,8 @@ import crystalImg from "../../Assets/Projects/crystal-img.png";
 import docsinkImg from "../../Assets/Projects/docsink.png";
 import fitAngle from "../../Assets/Projects/fit_angle.png";
 import ortholiveImg from "../../Assets/Projects/ortholiveImg.png";
+import goatsImage from "../../Assets/Projects/goat-img.png";
+
 
 function Projects() {
   return (
@@ -63,18 +65,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={goatsImage}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/tejass21/Ai_for_social_good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="GOAT Stories"
+              description="GOAT Stories is an AI-driven web app that creates short sports highlight videos of legendary athletes. Built with Next.js and TypeScript, it uses OpenAI for scripts, Amazon Polly for voice, Hugging Face for images, and ffmpeg.wasm for browser-based video creation. Videos are stored on AWS S3 and shown in a vertical reels-style UI."
+              ghLink="https://github.com/PrasadB1234/sports-reel-app"
+              demoLink="https://sports-reel-app.vercel.app/reels" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
